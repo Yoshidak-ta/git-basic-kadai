@@ -1,0 +1,18 @@
+﻿
+PS C:\Users\bskgo\git_tutorial> git init git_challenge
+Initialized empty Git repository in C:/Users/bskgo/git_tutorial/git_challenge/.git/
+PS C:\Users\bskgo\git_tutorial> cd git_challenge
+PS C:\Users\bskgo\git_tutorial\git_challenge> git add .
+PS C:\Users\bskgo\git_tutorial\git_challenge> git commit -m "hello_world.txtを追加"
+[main (root-commit) 0e543e0] hello_world.txtを追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+PS C:\Users\bskgo\git_tutorial\git_challenge> git add .
+PS C:\Users\bskgo\git_tutorial\git_challenge> echo "こんにちは、世界！" >> hello_world.txt
+PS C:\Users\bskgo\git_tutorial\git_challenge> git add .
+PS C:\Users\bskgo\git_tutorial\git_challenge> git commit -m "日本語訳を追記"
+[main fa29cfa] 日本語訳を追記
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\bskgo\git_tutorial\git_challenge> git log --oneline
+fa29cfa (HEAD -> main) 日本語訳を追記
+0e543e0 hello_world.txtを追加
